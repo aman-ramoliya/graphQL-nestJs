@@ -4,6 +4,6 @@ import { Query, Resolver } from '@nestjs/graphql';
 export class AppResolver {
   @Query(() => String)
   hello(): string {
-    return 'Hello World!';
+    return 'Hello World! This is movie booking backend using graphQL';
   }
 }
